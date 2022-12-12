@@ -105,6 +105,8 @@ int main(void)
 		neo_shift(adc_value);
 		
 		_delay_ms(100);
+		
+		myPrintf("ADC : %d\n", adc_value);
     }
 }
 
